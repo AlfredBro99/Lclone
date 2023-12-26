@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+
+    padding: 0%;
+    overflow: auto;
+}
+
+.fnav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fnav input {
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 16px;
+}
+
+.fnav p {
+
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.s-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: gray;
+
+}
+
+.s-nav:hover {
+    border-bottom: 2px solid rgb(13, 13, 46);
+    color: rgb(13, 13, 46);
+    cursor: pointer;
+}
+
+
+.s-nav img {
+    width: 5%;
+
+}
+
+.lenses {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: gray;
+
+}
+
+.lenses p {
+    text-align: center;
+}
+
+.lenses img {
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main img {
+    width: 100%;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cart .card {
+    text-align: center;
+}
+
+.card button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: aqua;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.cart .card img {
+    width: 100%
+}
+
+.banner {
+    text-align: center;
+    padding: 22px;
+
+}
+
+.banner-pf {
+    text-align: center;
+    padding: 22px;
+
+}
+
+.banner .img img {
+    width: 100%;
+}
+
+.banner-pf .img-pf img {
+    width: 100%;
+}
+
+
+
+.banner .t-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.t-img {
+    width: 50%;
+
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    padding: 33px;
+}
+
+.footer .list ul {
+    list-style: none;
+
+}
